@@ -8,24 +8,24 @@ Dark green: #28b485
 */
 
 * {
-  box-sizing: border-box;
+  box-sizing: inherit;
   padding: 0;
   margin: 0;
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
   html {
-    font-size: 4px;
+    font-size: 25%;
   }
 }
 
 @media (min-width: 426px) and (max-width: 1023px) {
   html {
-    font-size: 6px;
+    font-size: 37.5%;
   }
 }
 
@@ -36,6 +36,7 @@ body {
   color: white;
   line-height: 1.7;
   padding: 3rem;
+  box-sizing: border-box;
 }
 
 .header {
