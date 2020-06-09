@@ -1,4 +1,4 @@
-@import 'abstract/function';
+@import 'abstract/functions';
 @import 'abstract/mixins';
 @import 'abstract/variable';
 
@@ -10,5 +10,6 @@
 @import 'components/button';
 
 @import 'layout/header';
+@import 'layout/grid';
 
 @import 'pages/home';
