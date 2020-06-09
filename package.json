@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing Page For Natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsadRz/awesomeCSSProjects.git"
+  },
+  "author": "Asad Ullah Riaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsadRz/awesomeCSSProjects/issues"
+  },
+  "homepage": "https://github.com/AsadRz/awesomeCSSProjects#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
