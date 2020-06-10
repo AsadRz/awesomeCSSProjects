@@ -2,6 +2,9 @@
 	COLORS
 */
 /*
+FONT
+*/
+/*
 	GRID
 */
 *,
@@ -57,7 +60,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   /* font-size: 16px; */
-  color: #fff;
+  color: #777;
   line-height: 1.7;
   padding: 3rem; }
 
@@ -79,6 +82,42 @@ body {
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out; }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  letter-spacing: .2rem;
+  background-image: linear-gradient(to right, #7ed56f, #28b485);
+  color: transparent;
+  display: inline-block;
+  font-weight: 700;
+  -webkit-background-clip: text;
+  transition: all 0.2s;
+  text-transform: uppercase; }
+  .heading-secondary:hover {
+    transform: skewY(2deg) skewX(15deg);
+    text-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.3); }
+
+.heading-teritory {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 1.6rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.u-center-text {
+  text-align: center; }
+
+.u-margin-bottom-small {
+  margin-bottom: 1.5rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 8rem; }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -123,6 +162,25 @@ body {
   animation: moveInUp 0.5s ease-out 0.75s;
   animation-fill-mode: backwards; }
 
+.btn-text:link, .btn-text:visited {
+  color: #55c57a;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom: 1px solid #55c57a;
+  padding: 3px;
+  font-size: 1.6rem;
+  transition: all 0.2s; }
+
+.btn-text:hover {
+  color: #fff;
+  background-color: #55c57a;
+  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px); }
+
+.btn-text:active {
+  box-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.3);
+  transform: translateY(0px); }
+
 .header {
   position: relative;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url("../img/hero-small.jpg");
@@ -145,7 +203,6 @@ body {
 
 .row {
   max-width: 114rem;
-  background-color: #eee;
   margin: 0 auto; }
   .row::after {
     content: "";
@@ -154,7 +211,6 @@ body {
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row [class^=col-] {
-    background-color: orangered;
     float: left; }
     .row [class^=col-]:not(:last-child) {
       margin-right: 2rem; }
@@ -170,3 +226,8 @@ body {
     width: calc(2 * ((100% - 3*2rem)/4) + 2rem); }
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3*2rem)/4) + 2 * 2rem); }
+
+.section-about {
+  background-color: #f7f7f7;
+  padding: 25rem 0;
+  margin-top: -20rem; }
