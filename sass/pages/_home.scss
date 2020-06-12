@@ -1,5 +1,5 @@
 .section-about {
-	background-color: #f7f7f7;
+	background-color: $color-grey-light;
 	padding: 25rem 0;
 	margin-top: -20rem;
 }
@@ -20,7 +20,13 @@
 }
 
 .section-tours {
-	background-color: #f7f7f7;
+	background-color: $color-grey-light;
 	padding: 25rem 0 15rem 0;
 	margin-top: -10rem;
+}
+
+
+.section-stories {
+	padding: 15rem 0;
+	position: relative;
 }
